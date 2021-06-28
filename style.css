@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+}
+
+header{    
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    background-color: aqua;
+    
+}
+
+header a{
+    float: right;
+    padding: 0px 20px;
+
+}
+
+
+
+
+
+
+svg{
+    width: 64px;
+}
