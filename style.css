@@ -85,3 +85,9 @@ svg{
     width: 64px;
     text-align: center;
 }
+
+.skill-flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+}
