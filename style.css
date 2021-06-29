@@ -91,3 +91,34 @@ svg{
     flex-flow: row wrap;
     justify-content:center;
 }
+
+
+
+.education-flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.degree{
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    margin: 1rem;
+}
+
+#experience{
+    width: 90%;
+    margin: auto;
+}
+
+.experience-flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.exp{
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    margin: 1rem;
+}
