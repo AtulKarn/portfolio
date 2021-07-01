@@ -4,6 +4,7 @@ body {
   background-color: #e1e5ea;
   font-family: "Spectral", serif;
   font-size: large;
+  font-weight: bold;
 }
 
 #home img {
@@ -91,6 +92,8 @@ header a:hover {
 
 .projectdetail {
   padding: 0px 20px 0px 20px;
+  background-color: aliceblue;
+  border-radius: 5px;
 }
 
 .projectdetail a {
@@ -113,11 +116,11 @@ header a:hover {
   width: 90%;
   margin: auto;
   text-align: center;
-  padding: 5rem 0 2rem;
+  padding: 5rem 0 5rem;
 }
 
 #contact a {
-  padding: 20px 20px 20px 20px;
+  margin: 20px;
 }
 
 #contact img:hover {
@@ -128,8 +131,13 @@ header a:hover {
 svg {
   width: 50px;
   text-align: center;
-  padding: 1rem 1rem;
+  border-radius: 50%;
+  background-color: aliceblue;
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 5px 5px 5px 5px;
 }
+
+
 
 svg:hover {
   transform: scale(1.2);
@@ -152,6 +160,8 @@ svg:hover {
   display: grid;
   grid-template-columns: 5rem 1fr;
   margin: 1rem;
+  background-color: aliceblue;
+  border-radius: 5px;
 }
 
 .degree:hover {
@@ -174,6 +184,8 @@ svg:hover {
   display: grid;
   grid-template-columns: 4rem 1fr;
   margin: 1rem;
+  background-color: aliceblue;
+  border-radius: 5px;
 }
 
 .exp:hover {
@@ -190,6 +202,12 @@ h1 {
   height: 100%;
   width: 100%;
   background-color: #0d47a1;
-  z-index: -1;
-  opacity: 75%;
+  /* z-index: -1; */
+  opacity: 80%;
+}
+
+.contents{
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
