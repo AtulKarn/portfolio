@@ -94,6 +94,7 @@ header a:hover {
   padding: 0px 20px 0px 20px;
   background-color: aliceblue;
   border-radius: 5px;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 .projectdetail a {
@@ -137,8 +138,6 @@ svg {
   padding: 5px 5px 5px 5px;
 }
 
-
-
 svg:hover {
   transform: scale(1.2);
   transition: all 200ms ease;
@@ -152,8 +151,9 @@ svg:hover {
 
 .education-flex {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .degree {
@@ -162,6 +162,8 @@ svg:hover {
   margin: 1rem;
   background-color: aliceblue;
   border-radius: 5px;
+  padding: 1rem 1rem 1rem 1rem;
+  width: 650px;
 }
 
 .degree:hover {
@@ -186,6 +188,8 @@ svg:hover {
   margin: 1rem;
   background-color: aliceblue;
   border-radius: 5px;
+  padding: 1rem 1rem 1rem 1rem;
+  width: 650px;
 }
 
 .exp:hover {
@@ -206,8 +210,16 @@ h1 {
   opacity: 80%;
 }
 
-.contents{
-    position: relative;
-    align-items: center;
-    justify-content: center;
+.contents {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-edu {
+  margin: 0 0 0 1rem;
+}
+
+.experience-detail {
+  margin: 0 0 0 1rem;
 }
